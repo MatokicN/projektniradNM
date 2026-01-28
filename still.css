@@ -128,14 +128,11 @@ a:hover {
 	font-size: 60px;
 	 color: lightblue;
 	 text-align: center;
+@font-face {
+    font-family: "NikoMatokic";
+    src: url("NikoMatokic.ttf") format("truetype");
 }
-projekt/
-└── html/
-    ├── index.html
-    ├── o_meni.html
-    ├── vjezbe.html
-    ├── video.html
-    └── stil.css
+
 
 
 
