@@ -124,14 +124,17 @@ a:hover {
 }
 
 	.special-title {
-    font-family: "NikoMatokic.ttf", serif;
+  
 	font-size: 60px;
 	 color: lightblue;
 	 text-align: center;
 @font-face {
     font-family: "NikoMatokic";
     src: url("NikoMatokic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
+
 
 
 
