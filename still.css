@@ -1,27 +1,14 @@
-@charset "utf-8"; 
-	  /* CSS Document */
+@charset "utf-8";
 
+/* LOAD CUSTOM FONT */
+@font-face {
+    font-family: "NikoMatokic";
+    src: url("NikoMatokic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 
-body.pozadina {
-    background-image: url("pozadina.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: Arial, sans-serif;
-    color: black;
-}
-h1, h2 {
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-sherif";
-    color: lightblue;
-}
-a:hover{
-	background-color: pink;
-	
-}
-.galerija {
-    width: 450px;
-    height: 400px;
-}
-/* RESET – da svugdje izgleda isto */
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -123,12 +110,14 @@ a:hover {
     color: #ffffff;
 }
 
-	.special-title {
-    font-family: "Niko Matokić", serif;
-	font-size: 60px;
-	 color: lightblue;
-	 text-align: center;
+/* YOUR SPECIAL FONT HEADING */
+.special-title {
+    font-family: "NikoMatokic", serif;
+    font-size: 60px;
+    color: lightblue;
+    text-align: center;
 }
+
 
 
 
